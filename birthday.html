@@ -9,17 +9,36 @@
   <div class="card"> 
    <img src="https://github.com/DzarelDeveloper/Img/blob/main/ulangtahun.jpg?raw=true" alt="yeayy" class="yeayy"> 
    <div class="text"> 
-    <h1>hi kak andhikaaa!</h1> 
-    <p>happy special birthday! today is the day to celebrate your extraordinary existence in the journey of life.
+    <h1>𝐡𝐢 𝐤𝐚𝐤 𝐚𝐧𝐝𝐡𝐢𝐤𝐚𝐚𝐚!</h1> 
+    <p>𝒽𝒶𝓅𝓅𝓎 𝒷𝒾𝓇𝓉𝒽𝒹𝒶𝓎𝓎, 𝓉𝑜𝒹𝒶𝓎 𝒾𝓈 𝓉𝒽𝑒 𝒹𝒶𝓎 𝓉𝑜 𝒸𝑒𝓁𝑒𝒷𝓇𝒶𝓉𝑒 𝓎𝑜𝓊𝓇 𝑒𝓍𝓉𝓇𝒶𝑜𝓇𝒹𝒾𝓃𝒶𝓇𝓎 𝑒𝓍𝒾𝓈𝓉𝑒𝓃𝒸𝑒 𝒾𝓃 𝓉𝒽𝑒 𝒿𝑜𝓊𝓇𝓃𝑒𝓎 𝑜𝒻 𝓁𝒾𝒻𝑒.
 <br><br>
-may this year be a chapter filled with happiness, success, and love. happy birthday, and may each of your days be filled with extraordinary joy and achievements! 🎉🎂</p> 
-    <p class="muted">- junn -</p> 
+𝓂𝒶𝓎 𝓉𝒽𝒾𝓈 𝓎𝑒𝒶𝓇 𝒷𝑒 𝒶 𝒸𝒽𝒶𝓅𝓉𝑒𝓇 𝒻𝒾𝓁𝓁𝑒𝒹 𝓌𝒾𝓉𝒽 𝒽𝒶𝓅𝓅𝒾𝓃𝑒𝓈𝓈, 𝓈𝓊𝒸𝒸𝑒𝓈𝓈, 𝒶𝓃𝒹 𝓁𝑜𝓋𝑒. 𝒽𝒶𝓅𝓅𝓎 𝒷𝒾𝓇𝓉𝒽𝒹𝒶𝓎, 𝒶𝓃𝒹 𝓂𝒶𝓎 𝑒𝒶𝒸𝒽 𝑜𝒻 𝓎𝑜𝓊𝓇 𝒹𝒶𝓎𝓈 𝒷𝑒 𝒻𝒾𝓁𝓁𝑒𝒹 𝓌𝒾𝓉𝒽 𝑒𝓍𝓉𝓇𝒶𝑜𝓇𝒹𝒾𝓃𝒶𝓇𝓎 𝒿𝑜𝓎 𝒶𝓃𝒹 𝒶𝒸𝒽𝒾𝑒𝓋𝑒𝓂𝑒𝓃𝓉𝓈! 🎉🎂</p> 
+    <p class="muted">- 𝓳𝓾𝓷𝓷 -</p> 
    </div> 
-   <div class="space"></div> 
-   <audio controls autoplay> 
-    <source src="hbd.mp3" type="audio/mp3"> Your browser does not support the audio element. 
+   <!DOCTYPE html>
+   <html>
+    <head>
+        <title>happy birthday-audio</title>
+    </head>
+    <body>
+        <audio controls autoplay muted src ="floating.mp3">
+    </body>
+   </html> 
    </audio> 
+   <script>
+  // Coba putar musik saat halaman dimuat
+  window.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('birthday-audio');
+    
+    // Coba mainkan secara otomatis (browser kadang memblokir autoplay)
+    audio.play().catch((error) => {
+      console.log('Autoplay diblokir, klik tombol play untuk mendengarkan musik.');
+    });
+  });
+</script>
+
    <script src="script.js"></script>
+   <button onclick="document.getElementById('birthday-audio').play()">Putar Lagu 🎵</button>
   </div> 
  </body>
 </html>
